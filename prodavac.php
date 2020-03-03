@@ -1,11 +1,12 @@
 <?php
-$age = 1488;
+$age = 18;
+
 
 if ($age >= 18) {
-    $deal ="tady maš, dik za kšeft boyo";}
+    $deal ="tady maš, dik za kšeft boyo";
+$img ="bourbon.png";}
 else { $deal ="seš mladej, chlast nemožeš";
-
-}
+$img="ne.jpg";}
 ?>
 
 <!DOCTYPE html>
@@ -17,5 +18,7 @@ else { $deal ="seš mladej, chlast nemožeš";
 </head>
 <body>
     <p><?=$deal?></p>
+    <p><img src="<?= $img;?>"></p>
+    
 </body>
 </html>
